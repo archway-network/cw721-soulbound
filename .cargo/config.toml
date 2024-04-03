@@ -1,5 +1,7 @@
 [alias]
+setup-optimize = "install cargo-run-script"
 wasm = "build --release --target wasm32-unknown-unknown"
 wasm-debug = "build --target wasm32-unknown-unknown"
 unit-test = "test --lib"
 schema = "run --example schema"
+optimize = "run-script optimize"
