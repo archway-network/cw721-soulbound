@@ -65,5 +65,3 @@ This allows you to use custom `ExecuteMsg` and `QueryMsg` with your additional
 calls, but then use the underlying implementation for the standard cw721
 messages (except `transfer_nft` and `send_nft` which cannot be invoked). The same with 
 `QueryMsg`. You will most likely want to write a custom, domain-specific `instantiate`.
-
-**TODO: add example when written**
