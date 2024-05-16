@@ -1,4 +1,4 @@
-# Cw721 Soulbound
+# Cw721 Base (Soulbound)
 
 This is a basic implementation of a cw721 NFT contract. It implements the [CW721 spec (soulbound)](https://github.com/archway-network/cw721-soulbound/blob/main/packages/cw721/README.md) and is designed to be deployed as is, or imported into other contracts to easily build cw721-compatible NFTs with custom logic. 
 
