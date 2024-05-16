@@ -230,28 +230,28 @@ dependencies = [
 ]
 
 [[package]]
-name = "cw721"
-version = "0.14.0"
-dependencies = [
- "cosmwasm-std",
- "cw-utils",
- "schemars",
- "serde",
-]
-
-[[package]]
-name = "cw721-soulbound"
-version = "1.0.0"
+name = "cw721-base-soulbound"
+version = "1.0.2"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
  "cw-storage-plus",
  "cw-utils",
  "cw2",
- "cw721",
+ "cw721-soulbound",
  "schemars",
  "serde",
  "thiserror",
+]
+
+[[package]]
+name = "cw721-soulbound"
+version = "1.0.2"
+dependencies = [
+ "cosmwasm-std",
+ "cw-utils",
+ "schemars",
+ "serde",
 ]
 
 [[package]]
