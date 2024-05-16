@@ -231,7 +231,7 @@ dependencies = [
 
 [[package]]
 name = "cw721-base-soulbound"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
@@ -246,7 +246,7 @@ dependencies = [
 
 [[package]]
 name = "cw721-soulbound"
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
  "cosmwasm-std",
  "cw-utils",
