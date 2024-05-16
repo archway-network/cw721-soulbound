@@ -2,7 +2,7 @@
 use cosmwasm_std::testing::{mock_dependencies, mock_env, mock_info};
 use cosmwasm_std::{DepsMut, Empty, Response,};
 
-use cw721::{
+use cw721_soulbound::{
     Approval, ApprovalResponse, ContractInfoResponse, Cw721Query, Expiration,
     NftInfoResponse, OwnerOfResponse,
 };

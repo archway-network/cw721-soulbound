@@ -2,7 +2,7 @@ use crate::{ExecuteMsg, QueryMsg};
 use cosmwasm_std::{
     to_json_binary, Addr, CosmosMsg, CustomMsg, QuerierWrapper, StdResult, WasmMsg, WasmQuery,
 };
-use cw721::{
+use cw721_soulbound::{
     AllNftInfoResponse, Approval, ApprovalResponse, ApprovalsResponse, ContractInfoResponse,
     NftInfoResponse, NumTokensResponse, OperatorsResponse, OwnerOfResponse, TokensResponse,
 };

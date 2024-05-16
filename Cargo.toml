@@ -1,5 +1,5 @@
 [package]
-name = "cw721-soulbound"
+name = "cw721-base-soulbound"
 version = "1.0.0"
 edition = "2021"
 description = "Basic implementation of soulbound cw721 NFTs"
@@ -32,7 +32,7 @@ optimize = """docker run --rm -v "$(pwd)":/code \
 [dependencies]
 cw-utils = "0.14"
 cw2 = "0.14"
-cw721 = { path = "./packages/cw721", version = "0.14" }
+cw721-soulbound = { path = "./packages/cw721-soulbound", version = "1.0.0" }
 cw-storage-plus = "0.14"
 cosmwasm-std = { version = "~1.5.0" }
 schemars = "0.8.10"

@@ -4,7 +4,7 @@ use serde::Serialize;
 use cosmwasm_std::{Deps, DepsMut, Env, MessageInfo, Response, StdResult};
 
 use cw2::set_contract_version;
-use cw721::{ContractInfoResponse, CustomMsg, Cw721Execute, Expiration};
+use cw721_soulbound::{ContractInfoResponse, CustomMsg, Cw721Execute, Expiration};
 
 use crate::error::ContractError;
 use crate::msg::{ExecuteMsg, InstantiateMsg, MintMsg};

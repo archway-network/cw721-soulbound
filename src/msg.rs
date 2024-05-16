@@ -1,7 +1,7 @@
 use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
 
-use cw721::Expiration;
+use cw721_soulbound::Expiration;
 
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
