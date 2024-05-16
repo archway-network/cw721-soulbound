@@ -1,6 +1,6 @@
 [package]
 name = "cw721-soulbound"
-version = "1.0.1"
+version = "1.0.2"
 authors = [
     "Drew Taylor <drew.taylor@philabs.xyz>",
     "Ethan Frey <ethanfrey@users.noreply.github.com>",
@@ -13,7 +13,7 @@ repository = "https://github.com/archway-network/cw721-soulbound"
 
 [dependencies]
 cw-utils = "0.14"
-cosmwasm-std = { version = "~1.5.0" }
+cosmwasm-std = { version = "^1.0.0" }
 schemars = "0.8.10"
 serde = { version = "1.0.140", default-features = false, features = ["derive"] }
 
